@@ -37,40 +37,6 @@
 			<img src="./assets/Water_perspective_matte.png" alt="WaterDrop" class='image' id="rocket">
 		</div>
 
-		<div class='divide steps-two-sides'>
-			<aside class="container-steps">
-					<div onclick='changetexttostep1()' class="btn-steps active">
-						<p class="reposition-text whitetext">Schritt 1</p>
-					</div>
-					<div class="steps-divider"></div>
-					<div onclick='changetexttostep2()' class="btn-steps">
-						<p class="reposition-text whitetext">Schritt 2</p>
-					</div>
-					<div class="steps-divider"></div>
-					<div onclick='changetexttostep3()' class="btn-steps">
-						<p class="reposition-text whitetext">Schritt 3</p>
-					</div>
-			</aside>
-
-			<section id="transition_container" class='container padding-horizontal2 align-left'>
-				<h2 id="stepsheader" class='whiteheader'>Schritt 1: Registiere dich</h2>
-				<p id="stepsbodytext" class='whitetext padding-vertical'>
-					Um einem Projekt beizutreten solltest du dir ein Profil erstellen.
-					Erstelle dir deinen individuellen Benutzernamen und ein sicheres Passwort,
-					noch ein paar Angaben zu dir und los gehts!
-				</p>
-				<% if(isAuth) { %>
-				<a href="/projects">
-					<button id="stepsbutton" type='submit' class='btn btn-green'>Projekt beitreten</button>
-				</a>
-				<% } else{ %>
-				<a href="/register">
-					<button id="stepsbutton" type='submit' class='btn btn-green'>Registieren</button>
-				</a>
-				<% } %>
-			</section>
-		</div>
-
 		<div class='divide align-center-flex'>
 			<img src='./assets/working_remotely_.svg' alt='' class='image padding-horizontal3'>
 			<br>
