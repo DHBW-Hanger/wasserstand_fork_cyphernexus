@@ -24,54 +24,38 @@ body{
 /* Dropdown menu */
 
 .container-dropdown {
-
   width:200px;
   position: relative;
-
 }
 
 .click{
 
-  background-color: #f85f73;
+  background-color: #00B4D8;;
 
 }
 
 .click:hover {
 
-  background-color: #B71C1C;
+  background-color: #1c98b7;
 
 }
 
 .click,.links {
-
   padding: 12px;
-
   font-size: 1.2em;
-
-  font-family: futura Md BT;
-
   border: none;
-
   outline: none;
-
   width:200px;
-
   color:#fff;
-
   transition: 0.3s;
 
 }
 
 .list {
-
   position: absolute;
-
   transform: scaleY(0);
-
   transform-origin: top;
-
   transition: 0.3s;
-
 }
 
 .newlist {
@@ -82,7 +66,7 @@ body{
 
 .links {
 
-  background-color: #283c63;
+  background-color: #01579B;
 
 }
 
