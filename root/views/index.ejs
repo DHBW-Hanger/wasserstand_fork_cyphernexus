@@ -38,7 +38,7 @@
 		</div>
 
 		<div class='divide align-center-flex'>
-			<img src='./assets/working_remotely_.svg' alt='' class='image padding-horizontal3'>
+			<img src='/root/assets/wasserstanddia.php.png' alt='' class='image padding-horizontal3'>
 			<br>
 			<section class='padding-horizontal3'>
 				<h2 class='whiteheader'>
@@ -55,9 +55,25 @@
 
 		<div class='divide two-sides-even'>
 			<aside class='padding-all align-all'>
-				<img src='./assets/cooleinsel.png' alt='' class='image padding-horizontal3'>
+				<div class="container">
+					<button class="click">Click Me</button>
+					<div class="list">
+						<button class="links">Link 1</button>
+						<button class="links">Link 2</button>
+						<button class="links">Link 3</button>
+						<button class="links">Link 4</button>
+						<button class="links">Link 5</button>
+					</div>
+				</div>
+				<script>
+					let click = document.querySelector('.click');
+					let list = document.querySelector('.list');
+					click.addEventListener("click",()=>{
+						list.classList.toggle('newlist');
+		
+					});
+				</script>
 			</aside>
-
 			<section class='container padding-horizontal align-left'>
 				<h2 class='whiteheader'>
 					Gemeinsam zum Lernerfolg!</h2>
