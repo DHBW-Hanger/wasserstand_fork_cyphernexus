@@ -59,23 +59,16 @@ body{
 }
 
 .newlist {
-
   transform: scaleY(1);
-
 }
 
 .links {
-
   background-color: #01579B;
-
 }
 
 .links:hover {
-
   background-color: #01579B;
-
   transform: scale(1.1);
-
 }
 
 /* text */
