@@ -24,7 +24,6 @@ const session = require('express-session');
 const LocalStrategy = require('passport-local').Strategy
 const fs = require('fs')
 let assert = require('assert');
-let pythonBridge = require('python-bridge');
 /**
  * used as a encryption tool for passwords
  */
@@ -34,7 +33,6 @@ const req = require('express/lib/request');
 //(can later be changed to MongoDB and realized with the mongoose package)
 var userdata = require('./userdata.json');
 const methodOverride = require('method-override');
-let python = pythonBridge();
 server.use(methodOverride('_method'));
 server.use("/css", express.static(path.join(__dirname, "css")));
 server.use("/assets", express.static(path.join(__dirname, "assets")));
